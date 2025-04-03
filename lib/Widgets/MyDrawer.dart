@@ -85,6 +85,7 @@ class MyDrawer extends StatelessWidget {
                           },
                           isSeleted: drawerProvider.selectedPageIndex == 2,
                         ),
+                     
                         SizedBox(height: 10),
                         Row(
                           children: [
@@ -129,6 +130,14 @@ class MyDrawer extends StatelessWidget {
                             drawerProvider.seletedMenu(5);
                           },
                           isSeleted: drawerProvider.selectedPageIndex == 5,
+                        ),
+                           MyDrawerMenu(
+                          title: "Containers",
+                          icon: IconsAssets.appbar,
+                          onPress: () {
+                            drawerProvider.seletedMenu(6);
+                          },
+                          isSeleted: drawerProvider.selectedPageIndex == 6,
                         ),
                       ],
                     )),

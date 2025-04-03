@@ -2,6 +2,7 @@ import 'package:flutterhero/Page/About/AboutUs.dart';
 import 'package:flutterhero/Page/AppBar/AppBarPage.dart';
 import 'package:flutterhero/Page/BottomNavigation/BottomNavigationPage.dart';
 import 'package:flutterhero/Page/Buttons/ButtonsPage.dart';
+import 'package:flutterhero/Page/Containers/ContainersPage.dart';
 import 'package:flutterhero/Page/HomeData/HomePageData.dart';
 import 'package:flutterhero/ViewComponents/InputFields/InputFields.dart';
 
@@ -20,6 +21,7 @@ var pages = [
   AboutUs(),
   //* Index = 5 => Input Field Page
   InputFieldPage(),
+  Containerspage(),
   //* Index = 6 =>
   //* Index = 7 =>
   //* Index = 8 =>
