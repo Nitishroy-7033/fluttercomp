@@ -4,6 +4,7 @@ import 'package:flutterhero/Page/BottomNavigation/BottomNavigationPage.dart';
 import 'package:flutterhero/Page/Buttons/ButtonsPage.dart';
 import 'package:flutterhero/Page/Containers/ContainersPage.dart';
 import 'package:flutterhero/Page/HomeData/HomePageData.dart';
+import 'package:flutterhero/Page/splash/splash_page.dart';
 import 'package:flutterhero/ViewComponents/InputFields/InputFields.dart';
 
 import '../Page/InputFiels/InputFieldsPage.dart';
@@ -21,9 +22,10 @@ var pages = [
   AboutUs(),
   //* Index = 5 => Input Field Page
   InputFieldPage(),
-  Containerspage(),
   //* Index = 6 =>
+  Containerspage(),
   //* Index = 7 =>
+  SplashPage(),
   //* Index = 8 =>
   //* Index = 9 =>
   //* Index = 10 =>
