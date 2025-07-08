@@ -1,3 +1,5 @@
+String animatedSplashCode=''' 
+
 import 'package:flutter/material.dart';
 
 class AnimatedSplash extends StatefulWidget {
@@ -18,7 +20,7 @@ class _SplashScreenState extends State<AnimatedSplash> with SingleTickerProvider
 
     _controller = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 2),
+      duration: const Duration(seconds: 3),
     );
 
     _fadeAnimation = Tween<double>(begin: 0, end: 1).animate(
@@ -28,15 +30,6 @@ class _SplashScreenState extends State<AnimatedSplash> with SingleTickerProvider
     _scaleAnimation = Tween<double>(begin: 0.7, end: 1.1).animate(
       CurvedAnimation(parent: _controller, curve: Curves.elasticOut),
     );
-
-    // 🔁 Add loop by listening to status
-    _controller.addStatusListener((status) {
-      if (status == AnimationStatus.completed) {
-        _controller.reverse();
-      } else if (status == AnimationStatus.dismissed) {
-        _controller.forward();
-      }
-    });
 
     _controller.forward();
   }
@@ -72,3 +65,14 @@ class _SplashScreenState extends State<AnimatedSplash> with SingleTickerProvider
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+''';

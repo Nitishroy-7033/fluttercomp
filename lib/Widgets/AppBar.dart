@@ -18,15 +18,15 @@ class MyAppBar extends StatelessWidget {
       ),
       child: Row(
         children: [
-          SizedBox(width: 10),
+          const SizedBox(width: 10),
           if (!isDesktop)
             IconButton(
                 onPressed: () {
                   Scaffold.of(context).openDrawer();
                 },
-                icon: Icon(Icons.menu)),
-          SizedBox(width: 20),
-          if (isDesktop) Spacer(),
+                icon: const Icon(Icons.menu)),
+          const SizedBox(width: 20),
+          if (isDesktop) const Spacer(),
           Expanded(
             child: TextFormField(
               decoration: InputDecoration(
@@ -44,7 +44,7 @@ class MyAppBar extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(width: 20),
+          const SizedBox(width: 20),
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -55,7 +55,7 @@ class MyAppBar extends StatelessWidget {
               ),
             ],
           ),
-          SizedBox(width: 20),
+          const SizedBox(width: 20),
           InkWell(
                 hoverColor: Colors.transparent,
                 splashColor: Colors.transparent,
@@ -63,7 +63,7 @@ class MyAppBar extends StatelessWidget {
                 focusColor: Colors.transparent,
             onTap: () {},
             child: Container(
-              padding: EdgeInsets.all(7),
+              padding: const EdgeInsets.all(7),
               decoration: BoxDecoration(
                 color: Theme.of(context).colorScheme.primary.withOpacity(0.2),
                 borderRadius: BorderRadius.circular(5),
@@ -79,7 +79,7 @@ class MyAppBar extends StatelessWidget {
                           ),
                     ),
                   ),
-                  SizedBox(width: 10),
+                  const SizedBox(width: 10),
                   Text(
                     "Nitish Kumar",
                     style: Theme.of(context).textTheme.bodySmall?.copyWith(
@@ -94,7 +94,7 @@ class MyAppBar extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(width: 20),
+          const SizedBox(width: 20),
         ],
       ),
     );

@@ -12,9 +12,7 @@ class _BasicSplashScreenState extends State<BasicSplash> {
   void initState() {
     super.initState();
     Future.delayed(const Duration(seconds: 3), () {
-      if (mounted) {
-        Navigator.pushReplacementNamed(context, '/home');
-      }
+
     });
   }
 
@@ -26,7 +24,7 @@ class _BasicSplashScreenState extends State<BasicSplash> {
         child: const Center(
           child: Text(
             "Welcome",
-            style: TextStyle(fontSize: 20, color: Colors.white),
+            style: TextStyle(fontSize: 40, color: Colors.white),
           ),
         ),
       ),

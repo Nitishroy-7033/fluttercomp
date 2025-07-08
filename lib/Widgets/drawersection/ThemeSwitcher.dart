@@ -79,6 +79,7 @@ class _ThemeButton extends StatelessWidget {
               ? Theme.of(context).colorScheme.secondaryContainer
               : null,
         ),
+
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -87,16 +88,20 @@ class _ThemeButton extends StatelessWidget {
               width: 15,
               color: Theme.of(context).colorScheme.onSurface,
             ),
-            const SizedBox(width: 10),
-            Text(
-              label,
-              style: TextStyle(
-                fontSize: 12,
-                color: Theme.of(context).colorScheme.onSurface,
+            const SizedBox(width: 6),
+            Flexible(
+              child: Text(
+                label,
+                overflow: TextOverflow.ellipsis,
+                style: TextStyle(
+                  fontSize: 12,
+                  color: Theme.of(context).colorScheme.onSurface,
+                ),
               ),
             ),
           ],
         ),
+
       ),
     );
   }

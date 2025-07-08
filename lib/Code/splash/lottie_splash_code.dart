@@ -1,3 +1,5 @@
+String lottieSplashCode='''
+
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
@@ -37,3 +39,9 @@ class LottieSplashScreen extends StatelessWidget {
   }
 }
 
+
+
+
+
+
+''';
