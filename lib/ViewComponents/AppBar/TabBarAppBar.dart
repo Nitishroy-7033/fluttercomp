@@ -48,7 +48,7 @@ class _TabAppBarState extends State<TabAppBar> with TickerProviderStateMixin {
         ),
         body: TabBarView(
           controller: tabController,
-          children: [
+          children: const [
             DemoHomePage(),
             DemoAboutPage(),
             DemoContactPage(),

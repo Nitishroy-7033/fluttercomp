@@ -8,6 +8,9 @@ import 'package:flutterhero/Page/splash/splash_page.dart';
 import 'package:flutterhero/ViewComponents/InputFields/InputFields.dart';
 
 import '../Page/InputFiels/InputFieldsPage.dart';
+import '../Page/drawer/drawer.dart';
+import '../Page/page_navigation/page_navigation.dart';
+import '../Page/tabbar/TabbarPage.dart';
 
 var pages = [
   //* Index = 0 => Home
@@ -19,11 +22,12 @@ var pages = [
   //* Index = 3 => Bottom Navigation
   const BottomNavigationPage(),
   //* Index = 4 => Page Route
-  const AboutUs(),
+  const PageNavigation(),
+  // const AboutUs(),
   //* Index = 5 => Input Field Page
-  const InputFieldPage(),
+   const DrawerPage(),
   //* Index = 6 =>
-  const Containerspage(),
+ const  Tabbarpage(),
   //* Index = 7 =>
   const InputFieldPage(),
   //* Index = 8 =>
