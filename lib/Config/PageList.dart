@@ -11,23 +11,27 @@ import '../Page/InputFiels/InputFieldsPage.dart';
 
 var pages = [
   //* Index = 0 => Home
-  HomePageData(),
+  const HomePageData(),
   //* Index = 1 => Buttons
-  ButtonsPage(),
+  const ButtonsPage(),
   //* Index = 2 => AppBar
-  AppBarPage(),
+  const AppBarPage(),
   //* Index = 3 => Bottom Navigation
-  BottomNavigationPage(),
+  const BottomNavigationPage(),
   //* Index = 4 => Page Route
-  AboutUs(),
+  const AboutUs(),
   //* Index = 5 => Input Field Page
-  InputFieldPage(),
+  const InputFieldPage(),
   //* Index = 6 =>
-  Containerspage(),
+  const Containerspage(),
   //* Index = 7 =>
-  SplashPage(),
+  const InputFieldPage(),
   //* Index = 8 =>
+  const Containerspage(),
   //* Index = 9 =>
+  const SplashPage(),
   //* Index = 10 =>
+  const SplashPage(),
   //* Index = 11 =>
+  const SplashPage(),
 ];

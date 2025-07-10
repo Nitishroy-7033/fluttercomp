@@ -39,9 +39,9 @@ class WidgetArea extends StatelessWidget {
     return Container(
       child: Column(
         children: [
-          SizedBox(height: 20),
+          const SizedBox(height: 20),
           view,
-          SizedBox(height: 20),
+          const SizedBox(height: 20),
           Row(
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
@@ -85,7 +85,7 @@ class WidgetArea extends StatelessWidget {
               ),
             ],
           ),
-          SizedBox(height: 20),
+          const SizedBox(height: 20),
           ValueListenableBuilder(
             valueListenable: isExpanded,
             builder: (context, value, child) {
@@ -140,7 +140,7 @@ class WidgetArea extends StatelessWidget {
                                         fontSize: 10,
                                       ));
                                 },
-                                lineNumberStyle: LineNumberStyle(width: 50),
+                                lineNumberStyle: const LineNumberStyle(width: 50),
                                 textSelectionTheme: TextSelectionThemeData(
                                   selectionColor: Theme.of(context)
                                       .colorScheme
@@ -185,7 +185,7 @@ class WidgetArea extends StatelessWidget {
                                               .colorScheme
                                               .onPrimaryContainer,
                                         ),
-                                        SizedBox(width: 10),
+                                        const SizedBox(width: 10),
                                         Text(
                                           "Copy",
                                           style: Theme.of(context)
@@ -259,7 +259,7 @@ class WidgetArea extends StatelessWidget {
                                                 ));
                                           },
                                           lineNumberStyle:
-                                              LineNumberStyle(width: 50),
+                                              const LineNumberStyle(width: 50),
                                           textSelectionTheme:
                                               TextSelectionThemeData(
                                             selectionColor: Theme.of(context)
@@ -307,7 +307,7 @@ class WidgetArea extends StatelessWidget {
                                                         .colorScheme
                                                         .onPrimaryContainer,
                                                   ),
-                                                  SizedBox(width: 10),
+                                                  const SizedBox(width: 10),
                                                   Text(
                                                     "Copy",
                                                     style: Theme.of(context)
@@ -386,7 +386,7 @@ class WidgetArea extends StatelessWidget {
                                                 ));
                                           },
                                           lineNumberStyle:
-                                              LineNumberStyle(width: 50),
+                                              const LineNumberStyle(width: 50),
                                           textSelectionTheme:
                                               TextSelectionThemeData(
                                             selectionColor: Theme.of(context)
@@ -434,7 +434,7 @@ class WidgetArea extends StatelessWidget {
                                                         .colorScheme
                                                         .onPrimaryContainer,
                                                   ),
-                                                  SizedBox(width: 10),
+                                                  const SizedBox(width: 10),
                                                   Text(
                                                     "Copy",
                                                     style: Theme.of(context)
@@ -467,13 +467,13 @@ class WidgetArea extends StatelessWidget {
                     );
             },
           ),
-          SizedBox(height: 20),
+          const SizedBox(height: 20),
           Container(
             height: 2,
             decoration: BoxDecoration(
               color: Theme.of(context).colorScheme.onPrimaryContainer,
             ),
-            child: Row(
+            child: const Row(
               children: [],
             ),
           )

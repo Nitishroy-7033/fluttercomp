@@ -58,24 +58,24 @@ class HomePage extends StatelessWidget {
                     color: Theme.of(context).colorScheme.onPrimaryContainer,
                   ),
                 ),
-                SizedBox(width: 10),
+                const SizedBox(width: 10),
               ],
             ),
-      drawer: MyDrawer(),
+      drawer: const MyDrawer(),
       body: SafeArea(
         child: Row(
           children: [
             if (isDesktop)
-              Expanded(
+              const Expanded(
                   child: Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: EdgeInsets.all(8.0),
                 child: MyDrawer(),
               )),
             Expanded(
               flex: 6,
               child: SingleChildScrollView(
                 child: Padding(
-                  padding: EdgeInsets.all(10),
+                  padding: const EdgeInsets.all(10),
                   child: Consumer<DrawerProvider>(
                     builder: (context, value, child) =>
                         pages[value.selectedPageIndex],

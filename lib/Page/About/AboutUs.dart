@@ -18,8 +18,8 @@ class AboutUs extends StatelessWidget {
             children: [],
           ),
         ),
-        SizedBox(height: 20),
-        Text('About Us'),
+        const SizedBox(height: 20),
+        const Text('About Us'),
       ],
     );
   }

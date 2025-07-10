@@ -9,4 +9,5 @@ class AssetsRes {
   static const String PROJECT_NAME = 'flutterhero';
   static const String PROJECT_VERSION = '1.0.0+1';
   static const String RUNNING = 'assets/animation/running.json';
+  static const String CONTAINER = 'assets/photos/container.png';
 }
