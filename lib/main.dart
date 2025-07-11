@@ -3,6 +3,7 @@ import 'package:flutterhero/Config/PageRoutes.dart';
 import 'package:flutterhero/Config/Themes.dart';
 import 'package:flutterhero/Provider/ThemeProvider.dart';
 import 'package:flutterhero/Provider/drawerProvider.dart';
+import 'package:flutterhero/ViewComponents/form/provider/form_provider.dart';
 import 'package:provider/provider.dart';
 
 void main() async {
@@ -11,6 +12,7 @@ void main() async {
       providers: [
         ChangeNotifierProvider(create: (_) => DrawerProvider()),
         ChangeNotifierProvider(create: (_) => ThemeProvider()),
+        ChangeNotifierProvider(create: (_) => FormProvider())
       ],
       child: const MyApp(),
     ),

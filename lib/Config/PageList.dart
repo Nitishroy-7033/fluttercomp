@@ -9,6 +9,7 @@ import 'package:flutterhero/ViewComponents/InputFields/InputFields.dart';
 
 import '../Page/InputFiels/InputFieldsPage.dart';
 import '../Page/drawer/drawer.dart';
+import '../Page/form/form.dart';
 import '../Page/page_navigation/page_navigation.dart';
 import '../Page/tabbar/TabbarPage.dart';
 
@@ -33,7 +34,7 @@ var pages = [
   //* Index = 8 =>
   const Containerspage(),
   //* Index = 9 =>
-  const SplashPage(),
+  const FormPage(),
   //* Index = 10 =>
   const SplashPage(),
   //* Index = 11 =>
