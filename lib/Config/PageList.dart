@@ -11,6 +11,7 @@ import '../Page/InputFiels/InputFieldsPage.dart';
 import '../Page/drawer/drawer.dart';
 import '../Page/dropdown/dropdown_page.dart';
 import '../Page/form/form.dart';
+import '../Page/onboarding_page/onboarding_page.dart';
 import '../Page/page_navigation/page_navigation.dart';
 import '../Page/tabbar/TabbarPage.dart';
 
@@ -33,7 +34,7 @@ var pages = [
   //* Index = 7 =>
   const InputFieldPage(),
   //* Index = 8 =>
-  const Containerspage(),
+  // const Containerspage(),
   //* Index = 9 =>
   const FormPage(),
   //* Index = 10 =>
@@ -41,4 +42,5 @@ var pages = [
   // const SplashPage(),
   //* Index = 11 =>
   const SplashPage(),
+ const OnboardingPage(),
 ];

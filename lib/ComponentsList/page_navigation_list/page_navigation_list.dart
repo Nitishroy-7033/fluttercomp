@@ -17,7 +17,4 @@ var pageNavigationList=[
       child: FirstPage(),
     ),
   ),
-
-
-
 ];

@@ -10,4 +10,7 @@ class AssetsRes {
   static const String PROJECT_VERSION = '1.0.0+1';
   static const String RUNNING = 'assets/animation/running.json';
   static const String CONTAINER = 'assets/photos/container.png';
+  static const String ONBOARDING1 = 'assets/photos/onboarding1.svg';
+  static const String ONBOARDING2 = 'assets/photos/onboarding2.svg';
+  static const String ONBOARDING3 = 'assets/photos/onboarding3.svg';
 }

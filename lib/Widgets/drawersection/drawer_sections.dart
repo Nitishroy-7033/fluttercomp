@@ -23,31 +23,30 @@ final List<Map<String, List<DrawerMenuModel>>> drawerSections = [
     "INPUT": [
       DrawerMenuModel(
           title: "Input Text", iconPath: IconsAssets.bottomNav, index: 7),
+
+      DrawerMenuModel(title: "Form", iconPath: IconsAssets.route, index: 8),
       DrawerMenuModel(
-          title: "Containers", iconPath: IconsAssets.route, index: 8),
-      DrawerMenuModel(title: "Form", iconPath: IconsAssets.route, index: 9),
-      DrawerMenuModel(
-          title: "Dropdown", iconPath: IconsAssets.route, index: 10),
+          title: "Dropdown", iconPath: IconsAssets.route, index: 9),
     ]
   },
   {
     "STARTUP": [
       DrawerMenuModel(
-          title: "Splash", iconPath: IconsAssets.bottomNav, index: 11),
+          title: "Splash", iconPath: IconsAssets.bottomNav, index: 10),
       DrawerMenuModel(
-          title: "Onboarding", iconPath: IconsAssets.bottomNav, index: 12),
+          title: "Onboarding", iconPath: IconsAssets.bottomNav, index: 11),
     ]
   },
   {
     "LAYOUT": [
       DrawerMenuModel(
-          title: "Row / Column", iconPath: IconsAssets.bottomNav, index: 13),
+          title: "Row / Column", iconPath: IconsAssets.bottomNav, index: 12),
       DrawerMenuModel(
-          title: "Stack", iconPath: IconsAssets.bottomNav, index: 14),
+          title: "Stack", iconPath: IconsAssets.bottomNav, index: 13),
       DrawerMenuModel(
-          title: "Container", iconPath: IconsAssets.bottomNav, index: 15),
+          title: "Container", iconPath: IconsAssets.bottomNav, index: 14),
       DrawerMenuModel(
-          title: "Align / Padding", iconPath: IconsAssets.bottomNav, index: 16),
+          title: "Align / Padding", iconPath: IconsAssets.bottomNav, index: 15),
     ]
   },
   {
