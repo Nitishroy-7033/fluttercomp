@@ -13,6 +13,7 @@ import '../Page/dropdown/dropdown_page.dart';
 import '../Page/form/form.dart';
 import '../Page/onboarding_page/onboarding_page.dart';
 import '../Page/page_navigation/page_navigation.dart';
+import '../Page/row_column/row_column_page.dart';
 import '../Page/tabbar/TabbarPage.dart';
 
 var pages = [
@@ -43,4 +44,5 @@ var pages = [
   //* Index = 11 =>
   const SplashPage(),
  const OnboardingPage(),
+  const RowColumnPage(),
 ];
