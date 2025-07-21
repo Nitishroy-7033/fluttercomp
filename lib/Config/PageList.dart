@@ -8,12 +8,15 @@ import 'package:flutterhero/Page/splash/splash_page.dart';
 import 'package:flutterhero/ViewComponents/InputFields/InputFields.dart';
 
 import '../Page/InputFiels/InputFieldsPage.dart';
+import '../Page/align_and_padding/align_and_padding_page.dart';
+import '../Page/card/card_sample_page.dart';
 import '../Page/drawer/drawer.dart';
 import '../Page/dropdown/dropdown_page.dart';
 import '../Page/form/form.dart';
 import '../Page/onboarding_page/onboarding_page.dart';
 import '../Page/page_navigation/page_navigation.dart';
 import '../Page/row_column/row_column_page.dart';
+import '../Page/stack/stack_page.dart';
 import '../Page/tabbar/TabbarPage.dart';
 
 var pages = [
@@ -35,7 +38,7 @@ var pages = [
   //* Index = 7 =>
   const InputFieldPage(),
   //* Index = 8 =>
-  // const Containerspage(),
+
   //* Index = 9 =>
   const FormPage(),
   //* Index = 10 =>
@@ -45,4 +48,8 @@ var pages = [
   const SplashPage(),
  const OnboardingPage(),
   const RowColumnPage(),
+  const stackPage(),
+  const Containerspage(),
+  const AlignAndPaddingPage(),
+  const CardSamplePage()
 ];

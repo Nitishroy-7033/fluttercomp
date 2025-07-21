@@ -52,19 +52,19 @@ final List<Map<String, List<DrawerMenuModel>>> drawerSections = [
   {
     "DISPLAY": [
       DrawerMenuModel(
-          title: "Card", iconPath: IconsAssets.bottomNav, index: 17),
+          title: "Card", iconPath: IconsAssets.bottomNav, index: 16),
       DrawerMenuModel(
-          title: "Dialog", iconPath: IconsAssets.bottomNav, index: 18),
+          title: "Dialog", iconPath: IconsAssets.bottomNav, index: 17),
       DrawerMenuModel(
-          title: "Chip", iconPath: IconsAssets.bottomNav, index: 19),
+          title: "Chip", iconPath: IconsAssets.bottomNav, index: 18),
     ]
   },
   {
     "ADVANCED": [
       DrawerMenuModel(
-          title: "Animation", iconPath: IconsAssets.bottomNav, index: 20),
+          title: "Animation", iconPath: IconsAssets.bottomNav, index: 19),
       DrawerMenuModel(
-          title: "Glassmorphism", iconPath: IconsAssets.bottomNav, index: 21),
+          title: "Glassmorphism", iconPath: IconsAssets.bottomNav, index: 20),
     ]
   },
 ];
