@@ -10,6 +10,7 @@ import 'package:flutterhero/ViewComponents/InputFields/InputFields.dart';
 import '../Page/InputFiels/InputFieldsPage.dart';
 import '../Page/align_and_padding/align_and_padding_page.dart';
 import '../Page/card/card_sample_page.dart';
+import '../Page/dialog/dialog_page.dart';
 import '../Page/drawer/drawer.dart';
 import '../Page/dropdown/dropdown_page.dart';
 import '../Page/form/form.dart';
@@ -51,5 +52,6 @@ var pages = [
   const stackPage(),
   const Containerspage(),
   const AlignAndPaddingPage(),
-  const CardSamplePage()
+  const CardSamplePage(),
+  const DialogPage()
 ];
