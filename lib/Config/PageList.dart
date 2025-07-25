@@ -16,6 +16,7 @@ import '../Page/dialog/dialog_page.dart';
 import '../Page/drawer/drawer.dart';
 import '../Page/dropdown/dropdown_page.dart';
 import '../Page/form/form.dart';
+import '../Page/glassmorphic/glassmorphic_page.dart';
 import '../Page/onboarding_page/onboarding_page.dart';
 import '../Page/page_navigation/page_navigation.dart';
 import '../Page/row_column/row_column_page.dart';
@@ -57,5 +58,6 @@ var pages = [
   const CardSamplePage(),
   const DialogPage(),
   const ChipPage(),
-  const AnimationPage()
+  const AnimationPage(),
+  const glassmorphicPage(),
 ];
