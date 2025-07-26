@@ -65,6 +65,8 @@ final List<Map<String, List<DrawerMenuModel>>> drawerSections = [
           title: "Animation", iconPath: IconsAssets.bottomNav, index: 19),
       DrawerMenuModel(
           title: "Glassmorphism", iconPath: IconsAssets.bottomNav, index: 20),
+      DrawerMenuModel(
+          title: "Neomorphic", iconPath: IconsAssets.bottomNav, index: 21),
     ]
   },
 ];
