@@ -19,6 +19,7 @@ import '../Page/form/form.dart';
 import '../Page/glassmorphic/glassmorphic_page.dart';
 import '../Page/neomorphic/neomorphic_page.dart';
 import '../Page/onboarding_page/onboarding_page.dart';
+import '../Page/other/other_page.dart';
 import '../Page/page_navigation/page_navigation.dart';
 import '../Page/row_column/row_column_page.dart';
 import '../Page/stack/stack_page.dart';
@@ -63,4 +64,5 @@ var pages = [
   const AnimationPage(),
   const glassmorphicPage(),
  const  NeoMorphicPage(),
+  const otherPage(),
 ];
