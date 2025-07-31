@@ -12,15 +12,24 @@ import '../../Code/other/shimmer_loading_effect_code.dart';
 import '../../Code/other/time_range_picker_code.dart';
 import '../../ViewComponents/other/animated_textkit_screen.dart';
 import '../../ViewComponents/other/carousel_slider.dart';
+import '../../ViewComponents/other/circular_countdown_timer.dart';
 import '../../ViewComponents/other/confetti_screen.dart';
 import '../../ViewComponents/other/date_picker_screen.dart';
 import '../../ViewComponents/other/date_range_picker.dart';
 import '../../ViewComponents/other/dragble_dragable_target_screen.dart';
 import '../../ViewComponents/other/expandable_text.dart';
 import '../../ViewComponents/other/flip_card_widgets_screen.dart';
+import '../../ViewComponents/other/flutter_chat_bubble.dart';
+import '../../ViewComponents/other/flutter_color_picker_screeen.dart';
 import '../../ViewComponents/other/flutter_credit_card.dart';
+import '../../ViewComponents/other/flutter_slidable.dart';
 import '../../ViewComponents/other/intractive_widgets_screen.dart';
+import '../../ViewComponents/other/liquid_swipe.dart';
+import '../../ViewComponents/other/photo_view.dart';
+import '../../ViewComponents/other/rating_bar.dart';
+import '../../ViewComponents/other/pie_chart.dart';
 import '../../ViewComponents/other/pin_code_filed.dart';
+import '../../ViewComponents/other/share_plus.dart';
 import '../../ViewComponents/other/shimmer_loading_screen.dart';
 import '../../ViewComponents/other/showcase.dart';
 import '../../ViewComponents/other/signature_pad_screen.dart';
@@ -202,9 +211,103 @@ var otherComponentList=[
     view: SizedBox(
       height: 500,
       width: 300,
-      child: CreditCardExample(),
+      child: ColorPickerFullScreen(),
     ),
   ),
 
+  WidgetArea(
+    code1Title: "Add Dependency",
+    code1: confeetidepcode,
+    code2Title: "Confetti widgets Code",
+    code2: confeetiExampleCode,
+    isBorder: true,
+    view: SizedBox(
+      height: 500,
+      width: 300,
+      child: PieChartExample(),
+    ),
+  ),
+ WidgetArea(
+    code1Title: "Add Dependency",
+    code1: confeetidepcode,
+    code2Title: "Confetti widgets Code",
+    code2: confeetiExampleCode,
+    isBorder: true,
+    view: SizedBox(
+      height: 500,
+      width: 300,
+      child: LiquidSwipeExample(),
+    ),
+  ),
+ WidgetArea(
+    code1Title: "Add Dependency",
+    code1: confeetidepcode,
+    code2Title: "Confetti widgets Code",
+    code2: confeetiExampleCode,
+    isBorder: true,
+    view: SizedBox(
+      height: 500,
+      width: 300,
+      child: ChatBubbleExample(),
+    ),
+  ), WidgetArea(
+    code1Title: "Add Dependency",
+    code1: confeetidepcode,
+    code2Title: "Confetti widgets Code",
+    code2: confeetiExampleCode,
+    isBorder: true,
+    view: SizedBox(
+      height: 500,
+      width: 300,
+      child: CountdownTimerExample(),
+    ),
+  ),
+  WidgetArea(
+    code1Title: "Add Dependency",
+    code1: confeetidepcode,
+    code2Title: "Confetti widgets Code",
+    code2: confeetiExampleCode,
+    isBorder: true,
+    view: SizedBox(
+      height: 500,
+      width: 300,
+      child: SlidableListScreen(),
+    ),
+  ),
+ WidgetArea(
+    code1Title: "Add Dependency",
+    code1: confeetidepcode,
+    code2Title: "Confetti widgets Code",
+    code2: confeetiExampleCode,
+    isBorder: true,
+    view: SizedBox(
+      height: 500,
+      width: 300,
+      child: RatingBarScreen(),
+    ),
+  ),
+ WidgetArea(
+    code1Title: "Add Dependency",
+    code1: confeetidepcode,
+    code2Title: "Confetti widgets Code",
+    code2: confeetiExampleCode,
+    isBorder: true,
+    view: SizedBox(
+      height: 500,
+      width: 300,
+      child: ZoomImageScreen(),
+    ),
+  ), WidgetArea(
+    code1Title: "Add Dependency",
+    code1: confeetidepcode,
+    code2Title: "Confetti widgets Code",
+    code2: confeetiExampleCode,
+    isBorder: true,
+    view: SizedBox(
+      height: 500,
+      width: 300,
+      child: ShareExample(),
+    ),
+  ),
 
 ];
