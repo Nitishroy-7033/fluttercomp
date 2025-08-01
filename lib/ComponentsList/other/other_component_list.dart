@@ -10,7 +10,9 @@ import '../../Code/other/flip_card_widgets_code.dart';
 import '../../Code/other/intractive_widgets_code.dart';
 import '../../Code/other/shimmer_loading_effect_code.dart';
 import '../../Code/other/time_range_picker_code.dart';
+import '../../ViewComponents/other/animated_listed_screen.dart';
 import '../../ViewComponents/other/animated_textkit_screen.dart';
+import '../../ViewComponents/other/badges_screen.dart';
 import '../../ViewComponents/other/carousel_slider.dart';
 import '../../ViewComponents/other/circular_countdown_timer.dart';
 import '../../ViewComponents/other/confetti_screen.dart';
@@ -23,16 +25,20 @@ import '../../ViewComponents/other/flutter_chat_bubble.dart';
 import '../../ViewComponents/other/flutter_color_picker_screeen.dart';
 import '../../ViewComponents/other/flutter_credit_card.dart';
 import '../../ViewComponents/other/flutter_slidable.dart';
+import '../../ViewComponents/other/flutter_toast.dart';
 import '../../ViewComponents/other/intractive_widgets_screen.dart';
 import '../../ViewComponents/other/liquid_swipe.dart';
 import '../../ViewComponents/other/photo_view.dart';
+import '../../ViewComponents/other/qr_code.dart';
 import '../../ViewComponents/other/rating_bar.dart';
 import '../../ViewComponents/other/pie_chart.dart';
 import '../../ViewComponents/other/pin_code_filed.dart';
+import '../../ViewComponents/other/rive.dart';
 import '../../ViewComponents/other/share_plus.dart';
 import '../../ViewComponents/other/shimmer_loading_screen.dart';
 import '../../ViewComponents/other/showcase.dart';
 import '../../ViewComponents/other/signature_pad_screen.dart';
+import '../../ViewComponents/other/speed_dial.dart';
 import '../../ViewComponents/other/time_range_picker_screen.dart';
 
 var otherComponentList=[
@@ -297,7 +303,9 @@ var otherComponentList=[
       width: 300,
       child: ZoomImageScreen(),
     ),
-  ), WidgetArea(
+  ),
+
+  WidgetArea(
     code1Title: "Add Dependency",
     code1: confeetidepcode,
     code2Title: "Confetti widgets Code",
@@ -307,6 +315,72 @@ var otherComponentList=[
       height: 500,
       width: 300,
       child: ShareExample(),
+    ),
+  ),  WidgetArea(
+    code1Title: "Add Dependency",
+    code1: confeetidepcode,
+    code2Title: "Confetti widgets Code",
+    code2: confeetiExampleCode,
+    isBorder: true,
+    view: SizedBox(
+      height: 500,
+      width: 300,
+      child: AnimatedListScreen(), //start
+    ),
+  ),  WidgetArea(
+    code1Title: "Add Dependency",
+    code1: confeetidepcode,
+    code2Title: "Confetti widgets Code",
+    code2: confeetiExampleCode,
+    isBorder: true,
+    view: SizedBox(
+      height: 500,
+      width: 300,
+      child: BadgeScreen(),
+    ),
+  ),  WidgetArea(
+    code1Title: "Add Dependency",
+    code1: confeetidepcode,
+    code2Title: "Confetti widgets Code",
+    code2: confeetiExampleCode,
+    isBorder: true,
+    view: SizedBox(
+      height: 500,
+      width: 300,
+      child: ToastScreen(),
+    ),
+  ),  WidgetArea(
+    code1Title: "Add Dependency",
+    code1: confeetidepcode,
+    code2Title: "Confetti widgets Code",
+    code2: confeetiExampleCode,
+    isBorder: true,
+    view: SizedBox(
+      height: 500,
+      width: 300,
+      child: QrCodeScreen(),
+    ),
+  ),  WidgetArea(
+    code1Title: "Add Dependency",
+    code1: confeetidepcode,
+    code2Title: "Confetti widgets Code",
+    code2: confeetiExampleCode,
+    isBorder: true,
+    view: SizedBox(
+      height: 500,
+      width: 300,
+      child: SpeedDialScreen(),
+    ),
+  ), WidgetArea(
+    code1Title: "Add Dependency",
+    code1: confeetidepcode,
+    code2Title: "Confetti widgets Code",
+    code2: confeetiExampleCode,
+    isBorder: true,
+    view: SizedBox(
+      height: 500,
+      width: 300,
+      child: RiveScreen(),
     ),
   ),
 
